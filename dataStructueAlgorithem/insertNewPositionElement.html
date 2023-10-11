@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DSA in array</title>
+  </head>
+  <body>
+    <h1>Arraty ttraversing in DSA</h1>
+    <input type="text" id="position" placeholder="Enter postion number " />
+    <input type="text" id="newEle" placeholder="enter new Number" />
+
+    <button onclick="getElement()">Insert</button><br />
+  </body>
+  <script>
+  
+
+    function getElement() {
+        let array = [2, 4, 6, 7, 4, 7, 9, 5];
+      let newEl = document.getElementById("newEle").value;
+      newEl=parseInt(newEl)
+      let position = document.getElementById("position").value;
+      console.warn("position",array)
+      console.warn("old Array", array);
+      for (let i = array.length - 1; i >= 0; i--) {
+        
+        if (i >= position) {
+          array[i + 1] = array[i];
+          if (i == position) {
+            array[i] = newEl;
+          }
+        }
+      }
+      console.warn("new Array", array);
+    }
+  </script>
+</html>

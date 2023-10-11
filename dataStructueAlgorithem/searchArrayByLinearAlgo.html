@@ -1,0 +1,31 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DSA in array</title>
+  </head>
+  <body>
+    <h1>Arraty ttraversing in DSA</h1>
+    <input type="text" id="position" placeholder="Enter postion number " />
+
+    <button onclick="removeElement()">Insert</button><br />
+  </body>
+  <script>
+    let data = [33, 44, 55, 66, 77, 78, 79,55];
+    let position = 55;
+    let index = undefined;
+
+    for (let i = 0; i < data.length - 1; i++) {
+      //console.warn(data[i]);
+
+      if(data[i]=== position) {
+              index=i;
+              
+      }
+    }
+    console.warn(">>>>>>>>>>>>",index);
+
+    console.warn("indexOf",data.indexOf(position));
+    
+  </script>
+</html>

@@ -1,0 +1,30 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DSA in array</title>
+  </head>
+  <body>
+    <h1>Arraty ttraversing in DSA</h1>
+    <input type="text" id="position" placeholder="Enter postion number " />
+
+    <button onclick="removeElement()">Insert</button><br />
+  </body>
+  <script>
+    let array1 = [33, 44, 55, 66, 77, 78, 79,55];
+    let array2 = [45, 87, 54, 78, 0];
+    let array3 = [];
+
+    for(let i=0;i<array1.length;i++){
+        array3[i]=array1[i];
+    };
+
+    for(let i=0;i<array2.length;i++){
+         array3[array1.length+i]=array2[i]
+    }
+  
+    console.warn("array",array3)
+
+    
+  </script>
+</html>

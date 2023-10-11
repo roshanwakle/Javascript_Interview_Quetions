@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSA in array</title>
+</head>
+<body>
+    <h1>Arraty ttraversing in DSA</h1>
+    <input type="text" id="element"/>
+    <button onclick=getElement()>click </button>
+</body>
+<script>
+    let array= [2,4,6,7,4,7,9,5];
+   let data= array.splice(3,1111);
+   console.warn(">>>>>>>>>>>>>>.",data)
+
+
+
+    for(let i=0; i<array.length;i++){
+        document.write(`Array = ${array[i]} ,<br/>`);
+    }
+
+    function getElement(){
+
+        let element = document.getElementById("element").value;
+        if( element<=0){
+             alert("Element is less than zero!");
+        }
+        if(element<array.length   && typeof parseInt(element)==="number"){
+
+            alert("Clicked on element = " + array[element])
+        }else{
+            alert("not valid")
+        }
+    }
+
+</script>
+</html>

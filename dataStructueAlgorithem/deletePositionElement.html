@@ -1,0 +1,31 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DSA in array</title>
+  </head>
+  <body>
+    <h1>Arraty ttraversing in DSA</h1>
+    <input type="text" id="position" placeholder="Enter postion number " />
+
+    <button onclick=removeElement()>Insert</button><br />
+  </body>
+  <script>
+
+    function removeElement(){
+        let data = [33,44,55,66,77,78,79];
+        let position=document.getElementById("position").value
+        position= parseInt(position)
+      
+        for(let i=position;i<data.length-1;i++) {
+           //console.warn(data[i]);
+           data[i]= data[i+1];
+        }
+         data.length=data.length-1
+        console.warn(data)
+    }
+  
+
+    
+  </script>
+</html>

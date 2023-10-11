@@ -1,0 +1,100 @@
+Reverse a string.
+Find the largest number in an array.
+Check if a string is a palindrome.
+Remove duplicates from an array.
+Check if a number is prime.
+Calculate the factorial of a number.
+Check if two strings are anagrams.
+Generate the Fibonacci sequence.
+Count the number of vowels in a string.
+Check if a string has balanced parentheses.
+Find the second largest number in an array.
+Check if a number is a perfect square.
+Find the longest word in a string.
+Check if two strings are rotations of each other.
+Convert a number to Roman numerals.
+Find the missing number in an array.
+Check if a string is a pangram.
+Remove all occurrences of a specific element from an array.
+Find the intersection of two arrays.
+Find the smallest missing positive number in an array.
+Check if a number is a power of two.
+Reverse words in a string.
+Check if two strings are anagrams of each other.
+Find the sum of two numbers in an array.
+Check if a string is a palindrome permutation.
+Convert a binary number to decimal.
+Merge two sorted arrays.
+Find the median of two sorted arrays.
+Remove the nth node from the end of a linked list.
+Check if a number is a perfect number.
+Implement a queue using two stacks.
+Find the first non-repeating character in a string.
+Implement a stack using two queues.
+Sort an array of 0s, 1s, and 2s.
+Find the longest common prefix in an array of strings.
+Reverse the order of words in a sentence.
+Count the number of bits in a binary number.
+Find the maximum subarray sum.
+Check if a number is a happy number.
+Sort a stack using recursion.
+Generate all permutations of a string.
+Implement a linked list.
+Find the maximum depth of a binary tree.
+Implement a binary search tree.
+Find the intersection point of two linked lists.
+Find the maximum product of two integers in an array.
+Implement a doubly linked list.
+Find the longest increasing subarray in an array.
+Check if a string is a valid IPv4 address.
+Implement a hash table.
+Find the longest common subsequence of two strings.
+Implement a binary search.
+Find the nth Fibonacci number.
+Implement a trie.
+Sort a linked list using merge sort.
+Find the majority element in an array.
+Find the minimum number of platforms required for trains.
+Implement depth-first search (DFS) for a graph.
+Implement breadth-first search (BFS) for a graph.
+Implement Dijkstra's algorithm for shortest path.
+Implement Prim's algorithm for minimum spanning tree.
+Implement Kruskal's algorithm for minimum spanning tree.
+Check if a graph is bipartite.
+Implement a queue using a linked list.
+Implement a stack using a linked list.
+Find the intersection point of two linked lists.
+Find the kth largest element in an array.
+Check if a linked list is a palindrome.
+Implement topological sorting for a directed acyclic graph (DAG).
+Implement the Sieve of Eratosthenes for prime numbers.
+Find the kth smallest element in a binary search tree.
+Find the maximum depth of a binary search tree.
+Implement an LRU cache.
+Find the longest path in a directed acyclic graph (DAG).
+Implement the Knapsack problem (0/1 Knapsack).
+Implement the coin change problem.
+Implement heap sort.
+Implement quick sort.
+Implement merge sort.
+Implement insertion sort.
+Implement selection sort.
+Implement bubble sort.
+Find the maximum sum subarray in a circular array.
+Find the lowest common ancestor (LCA) in a binary tree.
+Check if a binary tree is a binary search tree (BST).
+Find the lowest common ancestor (LCA) in a binary search tree (BST).
+Implement depth-first search (DFS) for a binary tree.
+Implement breadth-first search (BFS) for a binary tree.
+Implement inorder traversal of a binary tree.
+Implement preorder traversal of a binary tree.
+Implement postorder traversal of a binary tree.
+Implement level order traversal of a binary tree.
+Check if a binary tree is balanced.
+Implement AVL tree.
+Implement Red-Black tree.
+Implement B-tree.
+Implement trie (prefix tree).
+Implement depth-first search (DFS) for a graph using recursion.
+Implement breadth-first search (BFS) for a graph using a queue.
+Implement Dijkstra's algorithm for shortest path in a weighted graph.
